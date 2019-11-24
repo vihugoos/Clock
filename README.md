@@ -1,2 +1,2 @@
 # Clock
-Relógio tradicional.
+Exibição de um relógio tradicional.
