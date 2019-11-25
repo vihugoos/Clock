@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body onLoad=hidden()>
 
     <div class="clock">
         <div class="nut"> </div>
@@ -34,6 +34,10 @@
         <div class="minute-hand"> </div>
         <div class="hour-hand"> </div>
     </div>
+
+    <script>
+        function hidden(){document.body.style.overflow='hidden';}
+    </script>
 
     <script src="js/js.js"></script>
 </body>
